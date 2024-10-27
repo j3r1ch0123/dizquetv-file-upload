@@ -1,7 +1,7 @@
 # dizqueTV File Upload to XSS Exploit
 
 ## Overview
-This exploit targets a file upload vulnerability in **dizqueTV** version 1.5.3. Due to insufficient sanitization in the file upload API, an attacker can upload arbitrary files, enabling potential **Cross-Site Scripting (XSS)** attacks. This exploit leverages the vulnerability to upload a crafted HTML file with embedded JavaScript.
+This exploit targets a file upload vulnerability in **dizqueTV** versions 1.5.3-1.5.5. Due to insufficient sanitization in the file upload API, an attacker can upload arbitrary files, enabling potential **Cross-Site Scripting (XSS)** attacks. This exploit leverages the vulnerability to upload a crafted HTML file with embedded JavaScript.
 
 **Exploit Author**: J3rich0123  
 **Tested on**: Linux  
