@@ -47,7 +47,7 @@ Note: If the file renders in a browser with JavaScript enabled, the XSS alert wi
 
 Example Output
 plaintext
-Copy code
+
 Reading malicious file: xss.html
 Uploading malicious file: xss.html
 Exploit successful! Attempted to upload: xss.html
@@ -56,7 +56,7 @@ PoC HTML Payload
 The xss.html payload file created by this exploit contains:
 
 html
-Copy code
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +69,7 @@ Copy code
     <p>If the alert shows, the XSS attack was successful!</p>
 </body>
 </html>
+```
 Remediation
 This vulnerability has been reported to the vendor, and a patch will be released in the next version. The patch will address file type sanitization and restrictions.
 
