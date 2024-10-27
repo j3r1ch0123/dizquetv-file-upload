@@ -32,14 +32,12 @@ Clone this repository.
 Execute the exploit with the target URL as an argument:
 
 ```bash
-Copy code
 python exploit.py <target_url>
 ```
 
 Example usage:
 
 ```bash
-Copy code
 python exploit.py http://localhost:8000/api/upload/image
 ```
 
