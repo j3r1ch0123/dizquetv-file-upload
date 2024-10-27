@@ -6,7 +6,7 @@ This exploit targets a file upload vulnerability in **dizqueTV** version 1.5.3. 
 **Exploit Author**: J3rich0123  
 **Tested on**: Linux  
 **Vendor**: [dizqueTV GitHub Repository](https://github.com/vexorian/dizquetv)  
-**Version**: 1.5.3 (Required)  
+**Version**: 1.5.3-1.5.5 (Required)  
 **CVE**: N/A
 
 ## Vulnerable Component
