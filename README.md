@@ -53,10 +53,10 @@ Reading malicious file: xss.html
 Uploading malicious file: xss.html
 Exploit successful! Attempted to upload: xss.html
 Server response: (Server response message here)
+
+```
 PoC HTML Payload
 The xss.html payload file created by this exploit contains:
-```
-
 html
 ```
 <!DOCTYPE html>
